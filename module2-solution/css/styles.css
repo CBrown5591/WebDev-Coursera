@@ -63,6 +63,10 @@ h1 {
   .col-lg-12 {
     width: 100%;
   }
+  #section1, #section2, #section3 {
+    width: 30%;
+    margin: 0% 1.33% 0% 1.33%;
+  }
 }
 
 /********** Medium devices only **********/
@@ -116,6 +120,15 @@ h1 {
   }
   .col-md-12 {
     width: 100%;
+  }
+  #section1, #section2 {
+    width: 49%;
+  }
+  #section1 {
+    margin-right: 1%;
+  }
+  #section2 {
+    margin-left: .5%;
   }
 }
 /********** Mobile devices only **********/
@@ -195,32 +208,12 @@ h1 {
 #sushi{
   background-color: green;
 }
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  #section1, #section2, #section3 {
-    width: 30%;
-    margin: 0% 1.33% 0% 1.33%;
-  }
-  #section1 {
-    
-  }
-  #section2 {
-    
-  }
-  #section3 {
-    
-  }
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  #section1, #section2 {
-    width: 49%;
-  }
-  #section1 {
-    margin-right: 1%;
-  }
-  #section2 {
-    margin-left: .5%;
-  }
-}
